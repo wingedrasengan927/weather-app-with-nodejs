@@ -7,3 +7,5 @@ Run npm init to install the required packages
 Get the darksky api  
 Get the google places api
 ```
+## Demo
+![](https://github.com/wingedrasengan927/weather-app-with-nodejs)
