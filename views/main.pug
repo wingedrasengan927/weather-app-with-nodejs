@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Weather App
+        link(rel="stylesheet", href="/css/main.css")
+        script(defer, src="/js/index.js")
+        script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ79_Hgw_ndXRnQ_mNbbPDLd7Kca2oNoc&libraries=places")
+        link(href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Open+Sans&display=swap" rel="stylesheet")
+
+
+    body
+        header
+            .main-header
+                h1 Weather App
+        main
+            .main-body
+                .main-content
+                    h1 Place
+                    h2 Weather
+                .weather-data
+                    .weather-value
+                        h3 Humidity
+                        p.humidity 0.0
+                    .weather-value
+                        h3 Temperature
+                        p.temperature 0.0
+                    .weather-value
+                        h3 Pressure
+                        p.pressure 0.0
+                    .weather-value
+                        h3 Precipitation
+                        p.precipitation 0.0
+                    .weather-value
+                        h3 Wind Speed
+                        p.wind-speed 0.0
+                .input-container
+                    input.place(type="text", name="place", id="place", class="place-search")
+            footer
+                <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by starline - www.freepik.com</a>

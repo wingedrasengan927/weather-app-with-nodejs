@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("/images/14206.jpg");
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.main-header {
+    width: 100;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.main-body {
+    width: 40%;
+    /* height: 70%; */
+    max-width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2.5rem;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.main-content {
+    text-align: center;
+    border: 5px 0px solid greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.main-content h1 {
+    margin: 0.6rem 0;
+}
+
+.main-content h2 {
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+
+}
+
+.main-header h1 {
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5rem;
+}
+
+.weather-data {
+    padding: 2rem 0;
+    display: block;
+    position: relative;
+}
+
+.weather-data h3, p {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weather-data p {
+    position: absolute;
+    left: 33.5rem;
+    font-size: 1.3em;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.place-search {
+    width: 75%;
+    font-size: 1.1rem;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+
+.pac-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 6px 6px;
+}
+
+.pac-icon {
+    display: none;
+}
+
+.pac-item-query {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
