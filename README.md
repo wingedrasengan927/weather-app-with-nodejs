@@ -8,4 +8,4 @@ Get the darksky api
 Get the google places api
 ```
 ## Demo
-![](https://github.com/wingedrasengan927/weather-app-with-nodejs)
+![](https://github.com/wingedrasengan927/weather-app-with-nodejs/blob/master/public/images/demo.gif)
